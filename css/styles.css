@@ -9460,7 +9460,7 @@ body {
     position: relative;
     height: 100%;
     background: url(/images/cover.png) no-repeat top center;
-    background-size: cover;
+    background-size: contain;
 }
 
 .section-2 {
@@ -9587,14 +9587,14 @@ body {
 }
 
 .countdown {
-    margin-bottom: -100px;
-    margin-left: 800px
+    margin-bottom: 240px;
+    margin-left: 0px
 }
 
 .head-button a {
     display: inline-block;
-    margin-left: 1700px;
-    margin-right: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .head-button a:hover {
