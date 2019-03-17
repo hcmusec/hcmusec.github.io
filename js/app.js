@@ -11961,7 +11961,7 @@ function disableScroll() {
 }
 
 function timerCountdown() {
-    var distance = Date.parse('03/17/2019 15:00:00') - Date.parse(new Date())
+    var distance = Date.parse('03/17/2019 15:15:00') - Date.parse(new Date())
         // Time calculations for days, hours, minutes and seconds
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
